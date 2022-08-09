@@ -1,0 +1,21 @@
+{
+    "members": [{
+        "id": 1,
+        "firstname": "Alain",
+        "lastname": "Proviste",
+        "adress": "12 rue du moulin, 8000 ports"
+    },
+    {
+        "id": 2,
+        "firstname": "Igor",
+        "lastname": "Gozonla",
+        "adress": "28 rue du pont-neuf, 8000 ports"
+    },
+     {
+        "id": 3,
+        "firstname": "Jean",
+        "lastname": "Valjean",
+        "adress": "32 rue des fusillers, 8000 ports"
+    }
+    ]
+}
