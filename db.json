@@ -1,21 +1,31 @@
 {
-    "members": [{
-        "id": 1,
-        "firstname": "Alain",
-        "lastname": "Proviste",
-        "adress": "12 rue du moulin, 8000 ports"
+  "members": [
+    {
+      "id": 1,
+      "firstname": "Alain",
+      "lastname": "Proviste",
+      "adress": "12 rue du moulin, 8000 ports",
+      "birthday": "30/07/1992",
+      "phone": "555.6235",
+      "mail": "alain@mail.com"
     },
     {
-        "id": 2,
-        "firstname": "Igor",
-        "lastname": "Gozonla",
-        "adress": "28 rue du pont-neuf, 8000 ports"
+      "id": 2,
+      "firstname": "Igor",
+      "lastname": "Gozonla",
+      "adress": "28 rue du pont-neuf, 8000 ports",
+      "birthday": "12/06/90",
+      "phone": "555.9562",
+      "mail": "igor@mail.com"
     },
-     {
-        "id": 3,
-        "firstname": "Jean",
-        "lastname": "Valjean",
-        "adress": "32 rue des fusillers, 8000 ports"
+    {
+      "id": 3,
+      "firstname": "Jean",
+      "lastname": "Valjean",
+      "adress": "32 rue des fusillers, 8000 ports",
+      "birthday": "05/08/2001",
+      "phone": "555.2367",
+      "mail": "jean@mail.com"
     }
-    ]
+  ]
 }
