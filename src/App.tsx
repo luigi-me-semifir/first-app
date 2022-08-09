@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import MemberList from "./components/MemberList/MemberList";
+import Home from "./pages/Home";
 import DetailsUser from "./pages/DetailsUser";
 
 import "./App.css";
@@ -11,8 +11,9 @@ function App() {
     <>
       <Header />
       <main>
+        {/* Route to the different pages */}
         <Routes>
-          <Route path="/" element={<MemberList />} />
+          <Route path="/" element={<Home />} />
           <Route path="/:id" element={<DetailsUser />} />
         </Routes>
       </main>
