@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
 import User from "../../models/user";
-import axios from "axios";
+import DataService from "../../services/userAPI.service";
 import { Link } from "react-router-dom";
-// import UserAPi from "../../services/userAPI";
 
 function MemberList() {
   const [members, setMembers] = useState<User[]>([]);
 
+  /**
+   * http request to receive data with userAPI.service
+   */
   useEffect(() => {
-    axios.get(`http://localhost:8000/members`).then(({ data }) => {
+    DataService.find().then(({ data }) => {
       setMembers(data);
     });
   }, []);
