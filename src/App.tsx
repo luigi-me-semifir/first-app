@@ -5,10 +5,11 @@ import Home from "./pages/Home";
 import DetailsUser from "./pages/DetailsUser";
 
 import "./App.css";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <>
+    <Fragment>
       <Header />
       <main>
         {/* Route to the different pages */}
@@ -18,7 +19,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </Fragment>
   );
 }
 
